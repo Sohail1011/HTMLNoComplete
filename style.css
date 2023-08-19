@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+/* .logo {
+    display: flex;
+    justify-self: center;
+    align-self: auto;
+}
+ */
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar button {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid red;
+    font-size: 17px;
+}
